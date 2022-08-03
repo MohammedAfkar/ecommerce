@@ -25,11 +25,19 @@
     width: 100%;
 }
 
+.searchitems{
+    height: 40px;
+    width: 100%;
+    margin-top: -8px;
+    display: flex;
+    justify-content: center;
+}
+
 .navsplit-vertical{
-    width: 40%;
     margin-top: 0;
     height: 50px;
     float: left;
+    width: 45%;
 }
 
 .logo{
@@ -41,6 +49,32 @@
 .logoimage{
     height: 40px;
     padding-left: 50px;
+}
+
+.navs{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.navtab{
+    padding-left: 50px;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.items{
+    padding-left: 22px;
+    color: #fff;
+    font-size: small;
+    text-decoration: none;
+}
+
+.searchbar{
+    width:30%;
+    margin-left: 35%;
+    margin-top:-25px;
 }
 
 #box1{
