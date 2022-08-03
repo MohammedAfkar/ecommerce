@@ -10,7 +10,7 @@
 .navbar{
     background-color: #1d1d1d;
     width: 100%;
-    height: 100px;
+    height: 120px;
     color:#ffffff;
 }
 
@@ -28,7 +28,7 @@
 .searchitems{
     height: 40px;
     width: 100%;
-    margin-top: -8px;
+    margin-top: -5px;
     display: flex;
     justify-content: center;
 }
@@ -77,6 +77,61 @@
     margin-top:-25px;
 }
 
+#font-highlight1{
+    font-weight:bolder;
+    font-size:50px;
+    font-style: italic;
+    color: #EC275B;
+}
+
+#font-highlight2{
+    font-weight: bolder;
+    font-size:50px;
+    color: #1d1d1d;
+    font-style: italic;
+}
+
+.Content-box{
+    margin-top: 90px;
+    height: 520px;
+    padding: 75px;
+    background-color: #f6f6f6;
+}
+
+.left-content{
+    margin:20px;
+    width: 35%;
+    float: left;
+}
+
+.center-content{
+width: 20%;
+float: left;
+margin-left: 50%;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: #EC275B;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.secondary-text{
+    width: 300px;
+}
+
+.sec-text-style{
+    width: 300px;
+    margin-left:50px;
+    font-size: 20px;
+}
+
+.shopnow{
+    border-radius: 10px;
+    box-shadow: none;
+    border-style: none;
+}
 #box1{
     background-color: #1d1d1d;
     margin: 10px;
@@ -134,10 +189,7 @@
     padding: 5px;
     margin: 5px;
 }
-#box3{
-    padding: 30px;
-    background-color: #f9f2e2;
-}
+
 #box3 h1{
     color: #F56D91;
     font-size: 45px;
