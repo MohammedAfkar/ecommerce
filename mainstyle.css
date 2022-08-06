@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: poppins,Arial, Helvetica, sans-serif;
 }
 
 #body-bg{
@@ -61,7 +61,7 @@
 .navtab{
     padding-left: 50px;
     color: #fff;
-    font-weight: bolder;
+    font-weight:bold;
     text-decoration: none;
 }
 .items{
@@ -99,21 +99,26 @@
 }
 
 .left-content{
-    margin:20px;
+    margin:38px;
     width: 35%;
     float: left;
 }
 
 .center-content{
-width: 20%;
-float: left;
-margin-left: 50%;
+    width: 30%;
+    float: left;
+    margin-left: -12%;
+}
+
+.right-content{
+    float: left;
+    margin-left: 80px;
 }
 
 .contact-link{
     text-decoration: none;
     color: #EC275B;
-    font-weight: bold;
+    font-weight:bold;
     margin-left: 50px;
 }
 
@@ -122,8 +127,8 @@ margin-left: 50%;
 }
 
 .sec-text-style{
-    width: 300px;
-    margin-left:50px;
+    width: 380px;
+    margin-left:85px; 
     font-size: 20px;
 }
 
@@ -131,7 +136,48 @@ margin-left: 50%;
     border-radius: 10px;
     box-shadow: none;
     border-style: none;
+    width: 222px;
+    height: 50px;
 }
+
+#button-text{
+    display: inline-block;
+    width: 82px;
+}
+
+.icon-box{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px #bebebe;
+    float: left;
+}
+
+.icon-inside{
+    margin: 18px;
+    height: 14px;
+}
+
+.content-descriptions{
+    font-size: 12px;
+    margin: 40px;
+    margin-left: 55px;
+    width: 400px;
+}
+.heading-text{
+    font-size: large;
+}
+
+#descript{
+    margin-right: 20px;
+}
+
+
+
+
+
 #box1{
     background-color: #1d1d1d;
     margin: 10px;
