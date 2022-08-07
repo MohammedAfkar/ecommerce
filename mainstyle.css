@@ -28,9 +28,10 @@
 .searchitems{
     height: 40px;
     width: 100%;
-    margin-top: -5px;
+    margin-top: 6px;
     display: flex;
     justify-content: center;
+    margin-left: -12px;
 }
 
 .navsplit-vertical{
@@ -74,7 +75,7 @@
 .searchbar{
     width:30%;
     margin-left: 35%;
-    margin-top:-25px;
+    margin-top:-18px;
 }
 
 #font-highlight1{
@@ -138,6 +139,8 @@
     border-style: none;
     width: 222px;
     height: 50px;
+    color: #fff;
+    background-color: #1d1d1d;
 }
 
 #button-text{
@@ -221,160 +224,10 @@ margin: 80px;
     border: none;
     margin: 4px;
     margin-top: 8px;
+    color: #fff;
+    background-color: #1d1d1d;
 }
 
 .button-inside-text{
-    margin-left: -50px;
-    margin-right: -50px;
-    margin-top: 2px;
-}
-
-
-
-
-
-
-
-
-
-
-#box1{
-    background-color: #1d1d1d;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    height: 150px;
-}
-#box1 div h1{
-    color: white;
-    margin: 25px;
-}
-#box1 div p{
-    position: relative;
-    color: white;
-    top: -56px;
-    margin-left: 28px;
-}
-#box2{
-    position: relative;
-    top: 20px;
-    right: 190px;
-}
-#box2 input{
-
-    border-radius: 10px;
-    transition: .5s;
-}
-#box2 input[type="text"]{
-    position: relative;
-    border-radius: 25px 0px 0px 25px;
-    right: 10px;
-    padding: 2px;
-    padding-left: 20px;
-    height: 35px;
-    width: 420px;
-    border: none;
-}
-#box2 input[type="submit"]{
-    position: relative;
-    border-radius: 0px 25px 25px 0px;
-    background:url(./Images/serr.PNG);
-    background-size: cover;
-    width: 50px;
-    top: 5px;
-    right: 37px;
-    border: none;
-    height: 35px;
-}
-#box2 input[type="button"]{
-    position: relative;
-    top: -40px;
-    left: 6px;
-    border: none;
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
-}
-
-#box3 h1{
-    color: #F56D91;
-    font-size: 45px;
-    margin: 0px;
-}
-
-#box3 h2{
-    color: #0b2343;
-    font-size: 45px;
-    margin: 0px;
-    margin-top: -30px;
-}
-#box3 p{
-    margin-left: 60px;
-    font-size: larger;
-}
-#box3 button{
-    background-color: #1d1d1d;
-    padding: 10px;
-    margin: 0px;
-    margin-left: 20px;
-    border-radius: 15px;
-    color: white;
-}
-#box3 h5 a{
-    color: #F56D91;
-    margin: 0px;
-    margin-top: 12px;
-    margin-left: 23px;
-}
-#box3 .sugu{
-    background-image: url(./Images/phn_smt-wtch_mockup_copy_copy.png);
-    background-size: cover;
-}
-#fetpro{
-    margin: 30px;
-    color: black;
-}
-#box4{
-    margin: 15px;
-}
-#box41{
-    background-color: #ececec;
-    margin: 20px;
-    padding-bottom: none;
-    border-radius: 20px;
-    height: 430px;
-}
-
-#box41 img{
-    height: 300px;
-    width: 150px;
-    top: -20px;
-    position: relative;
-}
-button{
-    background-color: #1d1d1d;
-    padding: 10px;
-    color: white;
-    border-radius: 15px;
-    font-size: 20px;
-    padding-inline: 70px;
-    margin-top: 20px;
-}
-#box5{
-    height: 400px;
-    width: 1300px;
-    margin: 20px;
-}
-#box6{
-    background-color: #1d1d1d;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    color: white;
-
-}
-form input,textarea{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
+    margin-top: 6px;
 }
