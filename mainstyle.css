@@ -10,81 +10,40 @@
 .navbar{
     background-color: #1d1d1d;
     width: 100%;
-    height: 120px;
+    height: 80px;
     color:#ffffff;
-}
-
-.navbar-toggler{
-    margin-left: 50px;
-    margin-top: 10px;
-    float: left;
-}
-
-.navsplit-horizontal{
-    height: 40px;
-    width: 100%;
-}
-
-.searchitems{
-    height: 40px;
-    width: 100%;
-    margin-top: -5px;
-    display: flex;
-    justify-content: center;
-}
-
-.navsplit-vertical{
-    margin-top: 0;
-    height: 50px;
-    float: left;
-    width: 45%;
 }
 
 .logo{
     float: left;
-    margin-top: 4px;
     height: 40px;
+    width: 40%;
 }
 
 .logoimage{
-    height: 40px;
+    height: 38px;
     padding-left: 50px;
 }
 
-.navs{
-    display: flex;
-    justify-content:flex-end;
-    flex-direction: row;
-    margin-top: 10px;
+.navtabs{
+    width: 30%;
 }
 
 .navtab{
     padding-left: 50px;
     color: #fff;
-    font-weight:bold;
-    text-decoration: none;
-}
-.items{
-    padding-left: 22px;
-    color: #fff;
-    font-size: small;
+    font-weight:medium;
     text-decoration: none;
 }
 
-.searchbar{
-    width:30%;
-    margin-left: 35%;
-    margin-top:-25px;
-}
-
-#font-highlight1{
+#font-highlight-magentha{
     font-weight:bolder;
     font-size:50px;
     font-style: italic;
     color: #EC275B;
 }
 
-#font-highlight2{
+#font-highlight-black{
     font-weight: bolder;
     font-size:50px;
     color: #1d1d1d;
@@ -92,8 +51,8 @@
 }
 
 .Content-box{
-    margin-top: 90px;
-    height: 520px;
+    margin-top: 60px;
+    height: 550px;
     padding: 75px;
     background-color: #f6f6f6;
 }
@@ -102,17 +61,6 @@
     margin:38px;
     width: 35%;
     float: left;
-}
-
-.center-content{
-    width: 30%;
-    float: left;
-    margin-left: -12%;
-}
-
-.right-content{
-    float: left;
-    margin-left: 80px;
 }
 
 .contact-link{
@@ -124,6 +72,11 @@
 
 .secondary-text{
     width: 300px;
+}
+.secondary-text-light{
+    color: #bebebe;
+    font-weight: 200;
+    font-size: 10px;
 }
 
 .sec-text-style{
@@ -139,6 +92,45 @@
     width: 222px;
     height: 50px;
 }
+
+
+.right-content{
+    width: 50%;
+    float: left;
+}
+
+.image-home{
+    margin-left: -80px;
+}
+
+.rectangle-ad{
+    width: 200px;
+    height: 110px;
+    position: relative;
+    left: 500px;
+    top: -380px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: #d2d2d2 1px 1px 8px;
+    padding: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.rectangle-ad-main{
+    width: 250px;
+    height: 290px;
+    position: relative;
+    left: -42px;
+    top: 42px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: #d2d2d2 1px 1px 8px;
+    padding: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
 
 #button-text{
     display: inline-block;
@@ -170,9 +162,6 @@
     font-size: large;
 }
 
-#descript{
-    margin-right: 20px;
-}
 
 .product-section{
     width: 100%;
@@ -188,21 +177,23 @@
 }
 
 .product-list{
-margin: 80px;
+    margin-left: 50px;
 }
+
 .product-box{
     float: left;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 .product-bg-rectangle{
-    width: 200px;
-    height: 288px;
-    background-color:#f6f6f6;
+    width: 220px;
+    height: 300px;
+    background-color: #f6f6f6;
     border-radius: 10px;
 }
 
 .product-image{
-    width: 150px;
+    width: 170px;
     margin: 28px;
     margin-top: -40px;
 }
@@ -215,166 +206,39 @@ margin: 80px;
 
 .shop-now{
     border-radius: 10px;
-    width: 190px;
-    height: 45px;
+    width: 212px;
+    height: 46px;
     box-shadow: none;
     border: none;
     margin: 4px;
     margin-top: 8px;
 }
 
+.show-more-round
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    background-color: #1d1d1d;
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 130px;
+    box-shadow: 1px 1px 10px #929292;
+}
+
+.more-button{
+    position:relative; 
+    left: 15px;
+    top: 12px;
+    font-size: large;
+    font-weight: bolder;
+}
+
 .button-inside-text{
     margin-left: -50px;
     margin-right: -50px;
     margin-top: 2px;
-}
-
-
-
-
-
-
-
-
-
-
-#box1{
-    background-color: #1d1d1d;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    height: 150px;
-}
-#box1 div h1{
-    color: white;
-    margin: 25px;
-}
-#box1 div p{
-    position: relative;
-    color: white;
-    top: -56px;
-    margin-left: 28px;
-}
-#box2{
-    position: relative;
-    top: 20px;
-    right: 190px;
-}
-#box2 input{
-
-    border-radius: 10px;
-    transition: .5s;
-}
-#box2 input[type="text"]{
-    position: relative;
-    border-radius: 25px 0px 0px 25px;
-    right: 10px;
-    padding: 2px;
-    padding-left: 20px;
-    height: 35px;
-    width: 420px;
-    border: none;
-}
-#box2 input[type="submit"]{
-    position: relative;
-    border-radius: 0px 25px 25px 0px;
-    background:url(./Images/serr.PNG);
-    background-size: cover;
-    width: 50px;
-    top: 5px;
-    right: 37px;
-    border: none;
-    height: 35px;
-}
-#box2 input[type="button"]{
-    position: relative;
-    top: -40px;
-    left: 6px;
-    border: none;
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
-}
-
-#box3 h1{
-    color: #F56D91;
-    font-size: 45px;
-    margin: 0px;
-}
-
-#box3 h2{
-    color: #0b2343;
-    font-size: 45px;
-    margin: 0px;
-    margin-top: -30px;
-}
-#box3 p{
-    margin-left: 60px;
-    font-size: larger;
-}
-#box3 button{
-    background-color: #1d1d1d;
-    padding: 10px;
-    margin: 0px;
-    margin-left: 20px;
-    border-radius: 15px;
-    color: white;
-}
-#box3 h5 a{
-    color: #F56D91;
-    margin: 0px;
-    margin-top: 12px;
-    margin-left: 23px;
-}
-#box3 .sugu{
-    background-image: url(./Images/phn_smt-wtch_mockup_copy_copy.png);
-    background-size: cover;
-}
-#fetpro{
-    margin: 30px;
-    color: black;
-}
-#box4{
-    margin: 15px;
-}
-#box41{
-    background-color: #ececec;
-    margin: 20px;
-    padding-bottom: none;
-    border-radius: 20px;
-    height: 430px;
-}
-
-#box41 img{
-    height: 300px;
-    width: 150px;
-    top: -20px;
-    position: relative;
-}
-button{
-    background-color: #1d1d1d;
-    padding: 10px;
-    color: white;
-    border-radius: 15px;
-    font-size: 20px;
-    padding-inline: 70px;
-    margin-top: 20px;
-}
-#box5{
-    height: 400px;
-    width: 1300px;
-    margin: 20px;
-}
-#box6{
-    background-color: #1d1d1d;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    color: white;
-
-}
-form input,textarea{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
 }
