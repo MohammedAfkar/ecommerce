@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>home</title>
+        <title>MobilePark | home</title>
+        <link rel="icon" href="http://drive.google.com/uc?export=view&id=1hm8xqpuSmY8uyHemo4wIddhi4SnhJM27" type="image/icon type">
         <!-- CSS only -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="mainstyle.css">
@@ -11,17 +12,43 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     </head>
-    <body class="container-fluid" id="body-bg">
-            <nav class="navbar fixed-top">
+    <body id="body-bg">
+        <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-8">
                 <div class="logo">
                     <img class="logoimage" src="http://drive.google.com/uc?export=view&id=1b3JsV4YonFhLOFVq_7O9Fw1zzcT6cIaP" alt="logo" >
                 </div>
-                <div class="navtabs">
-                    <a href="#" class="navtab">Home</a>
-                    <a href="#" class="navtab">About</a>
-                    <a href="#" class="navtab">Products</a>    
+            </div>
+                  <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><img src="http://drive.google.com/uc?export=view&id=1ykaOKhAQrRr0Bbnk8OmF7HDUBntzvT9z" style="width: 30px;"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav col-6 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" id="navtab-current" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" id="navtab" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" id="navtab" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Smart phones</a></li>
+                          <li><a class="dropdown-item" href="#">Mobile accessories</a></li>
+                          <li><a class="dropdown-item" href="#">Smart watches</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">All Products</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            </nav>
+              </nav>
+        </div>
             <div class="Content-box">
                 <div class="left-content">
                     <h1 id="font-highlight-magentha">Best Products<br><span id="font-highlight-black">At Your Door Step</h1><br>
@@ -36,11 +63,10 @@
                      <a href="#" class="contact-link">Contact us</a>
                 </div>
                 <div class="right-content">
-                    <img class="image-home" src="http://drive.google.com/uc?export=view&id=1nlbuUOV_Jhr5plhMgQ5_7WPxPApD34r3">
-                    <div class="rectangle-ad">Get upto 10% off on all Smartwears<br>
-                    <span class="secondary-text-light">Only applicable for your first purchase</span>
+                    <img class="image-home" src="http://drive.google.com/uc?export=view&id=1yln7TkqvnNGGew0o3zmA_HZOsxqdfHJe">
                     <div class="rectangle-ad-main">
-
+                        <h2 id="offer-text">Offers</h2>
+                        <button class="offer-button">Grab now</button>
                     </div>
                 </div>
                 </div>
@@ -108,5 +134,6 @@
                     </div>
                     </div>
             </div>
+        </div>
     </body>
 </html>

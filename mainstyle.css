@@ -15,9 +15,8 @@
 }
 
 .logo{
-    float: left;
     height: 40px;
-    width: 40%;
+    width: 60%;
 }
 
 .logoimage{
@@ -25,15 +24,15 @@
     padding-left: 50px;
 }
 
-.navtabs{
-    width: 30%;
+#navtab-current{
+    margin-left: 20px;
+    margin-right: 40px;
+    font-weight: bold;
 }
 
-.navtab{
-    padding-left: 50px;
-    color: #fff;
-    font-weight:medium;
-    text-decoration: none;
+#navtab{
+    margin-left: 20px;
+    margin-right: 40px;
 }
 
 #font-highlight-magentha{
@@ -54,7 +53,9 @@
     margin-top: 60px;
     height: 550px;
     padding: 75px;
-    background-color: #f6f6f6;
+    background-image: linear-gradient(to bottom right, #fdfdfd,#e8e8e8);
+    display: flex;
+
 }
 
 .left-content{
@@ -98,41 +99,47 @@
 
 .right-content{
     width: 50%;
-    float: left;
 }
 
 .image-home{
-    margin-left: -80px;
-}
-
-.rectangle-ad{
-    width: 200px;
-    height: 110px;
-    position: relative;
-    left: 500px;
-    top: -380px;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: #d2d2d2 1px 1px 8px;
-    padding: 15px;
-    padding-left: 20px;
-    font-weight: bold;
+    width: 400px;
+    margin-top: -50px;
+    float: left;
 }
 
 .rectangle-ad-main{
-    width: 250px;
-    height: 290px;
-    position: relative;
-    left: -42px;
-    top: 42px;
-    border-radius: 10px;
+    width: 360px;
+    height: 420px;
     background-color: rgb(255, 255, 255);
     box-shadow: #d2d2d2 1px 1px 8px;
-    padding: 15px;
-    padding-left: 20px;
-    font-weight: bold;
+    margin-left: 440px;
+    margin-top: -20px;
+    border-radius: 8px;
+    background-image: url("http://drive.google.com/uc?export=view&id=1W8bAMCV4ruLWJ4_1INRNpVAEXtMU0NDB");
+    color: #fdfdfd;
 }
 
+#offer-text{
+    padding: 130px;
+    font-weight: bolder;
+}
+
+.offer-button{
+    border-radius: 5px;
+    background-color: unset;
+    border-color: #f6f6f6;
+    border-style:solid;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 38px;
+    color: #f6f6f6;
+}
+
+.offer-button:hover{
+    color: #1d1d1d;
+    background-color: #f6f6f6;
+}
 
 #button-text{
     display: inline-block;
@@ -240,6 +247,7 @@
     font-size: large;
     font-weight: bolder;
 }
+
 
 .button-inside-text{
     margin-left: -50px;
