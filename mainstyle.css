@@ -3,6 +3,21 @@
     font-family: poppins,Arial, Helvetica, sans-serif;
 }
 
+#body-bg{
+    --bs-gutter-x: 0rem;
+}
+
+.navbar{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    height: 40px;
+    width: 60%;
+}
+
 .logoimage{
     height: 6vh;
     padding-left: 3em;
@@ -42,14 +57,15 @@
 }
 
 .left-content{
-    margin:2em;
-    width: 32vw;
+    margin:30px;
+    margin-top: 30px;
+    width: 35%;
     float: left;
 }
 
 .contact-link{
     text-decoration: none;
-    color: #EC275B;
+    color: ;
     font-weight:bold;
     margin-left: 3em;
 }
@@ -159,7 +175,7 @@
     font-weight: bold;
     font-style: italic;
     font-size: 22px;
-    margin: 50px;
+    margin: 60px;
     margin-left: 100px;
 }
 
@@ -213,8 +229,8 @@
     background-color: #1d1d1d;
     float: left;
     position: relative;
-    left: 30px;
-    top: 130px;
+    left: 250px;
+    top: -180px;
     box-shadow: 1px 1px 10px #929292;
 }
 
