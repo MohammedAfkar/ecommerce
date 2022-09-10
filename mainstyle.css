@@ -3,10 +3,6 @@
     font-family: poppins,Arial, Helvetica, sans-serif;
 }
 
-#body-bg{
-    --bs-gutter-x: 0rem;
-}
-
 .navbar{
     background-color: #1d1d1d;
     width: 100%;
